@@ -1,0 +1,87 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e8d6; /* light tan background */
+    color: #333; /* dark text for contrast */
+    line-height: 1.6;
+    padding-top: 50px; /* to make space for the fixed nav */
+  }
+  
+  /* Navigation bar */
+  nav.linker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5A9BD5; /* light blue */
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  nav.linker ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav.linker a.realLink {
+    color: #fff; /* white text */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav.linker a.realLink:hover {
+    background-color: #3b7db7; /* darker blue on hover */
+  }
+  
+  /* Main heading */
+  .superTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 50px 0 30px;
+    color: #3c6e8f; /* muted blue */
+  }
+  
+  /* Image styling */
+  .jesuspic {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Paragraph styling */
+  .bodyText {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* white background for text */
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    color: #444;
+  }
+  
+  /* Link styling for hover effect */
+  a.realLink {
+    transition: color 0.3s ease;
+  }
+  
+  a.realLink:hover {
+    color: #1f3d68; /* deep blue on hover */
+  }
